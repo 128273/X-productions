@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+	<head>
+		<title>Games4U Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+<body>
+	<div id="container">
+		<body background="Achtergrond/HTML%20Background.jpg">
+			
+		<!--HEADER -->
+		<div id="header">
+			<style>
+			.mySlides {display:none;}
+			</style>
+			<center><div class="w3-content w3-section" style="max-width:2000px">
+ 			 <img class="mySlides" src="Slideshow/Slideshow 1_Pacman.jpg" style="width:100%">
+			 <img class="mySlides" src="Slideshow/Slideshow 2_Mario.jpg" style="width:100%">
+			 <img class="mySlides" src="Slideshow/Slideshow 3_Pokemon.jpg" style="width:100%">
+			 <img class="mySlides" src="Slideshow/Slideshow 4_Sonic.jpg" style="width:100%">
+			</div></center>
+			
+			
+			<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+  				var i;
+    			var x = document.getElementsByClassName("mySlides");
+   	 			for (i = 0; i < x.length; i++) {
+       			x[i].style.display = "none";  
+    			}
+    			myIndex++;
+    			if (myIndex > x.length) {myIndex = 1}    
+   				x[myIndex-1].style.display = "block";  
+   				setTimeout(carousel, 4000); // Change image every 4 seconds
+				}
+			</script>
+		 </div>
+		 
+		 <!--MENU -->
+		 <div id="menu">
+			 <center><ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">Spellen</a></li>
+			<li><a href="index.html">Evenementen</a></li>
+			<li><a href="index.html">Informatie</a></li>
+		</ul></center>
+		 </div> 
+		 
+		 <!--CONTENT -->
+		 <div id="content">
+			 <div class="content1">
+				 <center><h1>TEST</h1></center>
+
+		 </div>
+		 
+		 <!--FOOTER -->
+		 <div id="footer">
+			 <div class="tekst2">
+					 <FONT FACE="Adobe Arabic" COLOR="white" size="3">Copyright © 2017 X Productions Alle rechten voorbehouden.</FONT>
+			 </div>
+			 <div class="facebook">
+			 	 <img src="Afbeeldingen/facebook_icon.png" height="30" width="30"</div>
+			 	 <img src="Afbeeldingen/Twitter_bird_logo.png" height="30" width="30"</div>
+			 	 <img src="Afbeeldingen/Instagram-v051916_200.png" height="30" width="30"</div>
+			 </div>
+			</div>
+</body>
+</html
