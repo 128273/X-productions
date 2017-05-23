@@ -1,40 +1,49 @@
 #container{
 	position:relative;
 	margin:auto;
-	width: 100%;
-	height:650px;
+	width: 99%;
+	height:0%;
 }
 
 #header{
 	position:absolute;
-	width:100%;
-	height:140px;
-	background-color:#595959;
+	width:99%;
+	height:19%;
+	background-color: white;
+	padding-top: 0;
 }
 
 #menu{
 	position:absolute;
-	top:120px;
-	width:100%;
-	height:0px;
-	background-color:white;
+	top: 18%;
+	width:99%;
+	padding-top: 0;
+	padding-bottom: 0;
+	float: top;
 }
 
 #content{
 	position:absolute;
-	top:180px;
-	width:100%;
-	height:1300px;
-	background-color:white;
+	top:28%;
+	width:99%;
+	height:50%;
+	background-color: white;
 }
  
 #footer{
 	position:absolute;
 	top:2200px;
-	width:100%;
+	width:99%;
 	height:100px;
 	background-color: #595959;
 	background-size: 100% 100%;
+}
+#een{
+	position:absolute;
+	top:100%;
+	width:100%;
+	height:300;
+	background-color:#B6AFAD;
 }
 
 .nav {
@@ -70,7 +79,7 @@ div.box {
     width: 30%;
     border: #595959;
     float: top;
-    top: 40px;
+    top: 10%;
 }
 
 .padding{
@@ -81,21 +90,12 @@ div.box {
 	width: 100%
 }
 
-#slideshow{
-	margin: 50px auto;
-	position:relative;
-	width: 240px;
-	height: 240px;
-	padding: 10px;
-	box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+#Slideshow{
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
 }
-#slideshow > div{
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
-}
+
 #show{
 	border-bottom: 10px solid black;
 	border-right: 10px solid black;
@@ -103,6 +103,14 @@ div.box {
 	border-left: 10px solid black;;
 }
 
+#foto{
+	padding-right: 0;
+	
+}
+#Home_tekst{
+	padding-left: 50;
+	padding-right: 50;
+}
 
 
 
