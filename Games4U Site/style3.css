@@ -1,0 +1,163 @@
+/* --->informatie.html stylesheat<--- */
+
+html, body { 
+	margin: 0px; 
+	padding: 0px; 
+} 
+#container{
+	position:relative;
+	margin:auto;
+	width: 100%;
+	height:650px;
+}
+
+#header{
+	position:absolute;
+	width:100%;
+	height:200px;
+	background-color:	#595959;
+}
+
+#menu{
+	position:absolute;
+	top:180px;
+	width:100%;
+	height:0px;
+	background-color:white;
+}
+
+#content{
+	position:absolute;
+	top:240px;
+	width:100%;
+	height:500px;
+	background-color: white;
+}
+
+.contentone{
+	position: static;
+	top:2000px;
+	width:100%;
+	height:500px;
+	background-color: #C5C5C5;
+}
+ 
+#footer{
+	position: relative;
+	/*top:1600;*/
+	width:100%;
+	height:100px;
+	background-color: black;
+}
+
+.nav {
+	background-color: black;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 15px 0 20px 0;
+	
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;	
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav > li > a:hover {
+	color: #c1c1c1;
+}
+
+div.container {
+    width: 77em;
+    border: 1em solid  #595959;
+}
+
+div.box {
+    box-sizing: border-box;
+    width: 30%;
+    border: #595959;
+    float: top;
+    top: 40px;
+}
+
+.padding{
+	padding-left: 10cm;
+	padding-right: 10cm;
+}
+.Achtergrond{
+	width: 100%
+}
+#txt{
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#test2{
+	float: right;
+}
+.tekst2{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#fotohome{
+	padding-top: 6%;
+}
+.adres{
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+#maps{
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+#adres{
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.tekst{
+	padding-left: 50px;
+	padding-right: 50px;	
+}
+a {
+	text-decoration: none
+}
+
+
+
+
